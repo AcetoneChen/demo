@@ -11,10 +11,10 @@
 				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo">
@@ -40,10 +40,10 @@
 					<Add directory="E:/coding/Clion/Embedded/demo/MDK-ARM/RTE/_RM_Frame_C"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
-					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo/fast">
@@ -69,30 +69,30 @@
 					<Add directory="E:/coding/Clion/Embedded/demo/MDK-ARM/RTE/_RM_Frame_C"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
-					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

@@ -33,9 +33,5 @@ CMakeFiles/demo.dir/Core/Src/main.o: \
   E:\coding\Clion\Embedded\demo\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   E:\coding\Clion\Embedded\demo\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
   E:\coding\Clion\Embedded\demo\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
-  E:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\include\rtthread.h \
-  E:\coding\Clion\Embedded\demo\RT-Thread\rtconfig.h \
-  E:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\include\rtdebug.h \
-  E:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\include\rtdef.h \
-  C:\Keil_v5\ARM\ARMCLANG\bin\..\include\stdarg.h \
-  E:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\include\rtservice.h
+  E:\coding\Clion\Embedded\demo\Core\Inc\usart.h \
+  E:\coding\Clion\Embedded\demo\Core\Inc\gpio.h

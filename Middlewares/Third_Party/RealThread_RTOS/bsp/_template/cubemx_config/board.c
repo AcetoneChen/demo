@@ -51,7 +51,6 @@ void rt_hw_board_init(void)
     HAL_Init();
     SystemClock_Config();
     SystemCoreClockUpdate();
-
     /* 
      * 1: OS Tick Configuration
      * Enable the hardware timer and call the rt_os_tick_callback function
@@ -72,7 +71,7 @@ void rt_hw_board_init(void)
 #ifdef RT_USING_CONSOLE
 
 static UART_HandleTypeDef UartHandle;
-static int uart_init(void) // 本质：main.c文件中的MX_USART2_UART_Init()函数
+static int uart_init(void)
 {
     /* TODO: Please modify the UART port number according to your needs */
     UartHandle.Instance = USART2;

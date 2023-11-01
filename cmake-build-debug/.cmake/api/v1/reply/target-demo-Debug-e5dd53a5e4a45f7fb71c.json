@@ -63,7 +63,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "--target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w -std=gnu99 -fcolor-diagnostics"
+					"fragment" : "--target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w -g -std=gnu99 -fcolor-diagnostics"
 				},
 				{
 					"backtrace" : 2,
@@ -280,7 +280,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "--target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w",
+				"fragment" : "--target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w -g",
 				"role" : "flags"
 			},
 			{

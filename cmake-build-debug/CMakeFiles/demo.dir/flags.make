@@ -13,5 +13,5 @@ C_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DSTM32F4
 
 C_INCLUDES = -IE:\coding\Clion\Embedded\demo\Core\Inc -IE:\coding\Clion\Embedded\demo\Drivers\STM32F4xx_HAL_Driver\Inc -IE:\coding\Clion\Embedded\demo\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IE:\coding\Clion\Embedded\demo\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IE:\coding\Clion\Embedded\demo\Drivers\CMSIS\Include -IE:\coding\Clion\Embedded\demo\RT-Thread -IE:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\bsp\_template\cubemx_config -IE:\coding\Clion\Embedded\demo\Middlewares\Third_Party\RealThread_RTOS\include -IE:\coding\Clion\Embedded\demo\MDK-ARM\RTE\_RM_Frame_C
 
-C_FLAGS = --target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w -std=gnu99 -fcolor-diagnostics -mfloat-abi=hard -mfpu=fpv4-sp-d16
+C_FLAGS = --target=arm-arm-none-eabi -mcpu=cortex-m4         -fno-rtti -funsigned-char -fshort-enums -fshort-wchar     -gdwarf-4 -Oz -ffunction-sections -w -g -std=gnu99 -fcolor-diagnostics -mfloat-abi=hard -mfpu=fpv4-sp-d16
 

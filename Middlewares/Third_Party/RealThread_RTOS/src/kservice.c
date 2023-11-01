@@ -21,7 +21,6 @@
 
 #include <rtthread.h>
 #include <rthw.h>
-#include "main.h"
 
 /* use precision */
 #define RT_PRINTF_PRECISION
@@ -1127,22 +1126,7 @@ rt_device_t rt_console_set_device(const char *name)
 
 RT_WEAK void rt_hw_console_output(const char *str)
 {
-//    /* 进入临界段 */
-//    rt_enter_critical();
-//
-//    /* 直到字符串结束 */
-//    while (*str!='\0')
-//    {
-//        /* 换行 */
-//        if (*str=='\n')
-//        {
-//            HAL_UART_Transmit( &huart2,(uint8_t *)'\r',1,1000);
-//        }
-//        HAL_UART_Transmit( &huart2,(uint8_t *)(str++),1,1000);
-//    }
-//
-//    /* 退出临界段 */
-//    rt_exit_critical();
+    /* empty console output */
 }
 
 /**
