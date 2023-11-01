@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a524049-eeec-45ef-8a3a-25db85c27d62" name="Changes" comment="" />
+    <list default="true" id="4a524049-eeec-45ef-8a3a-25db85c27d62" name="Changes" comment="Create Branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,8 +102,17 @@
       <workItem from="1698749892512" duration="1591000" />
       <workItem from="1698751626162" duration="11290000" />
       <workItem from="1698767285590" duration="155000" />
-      <workItem from="1698805823808" duration="1439000" />
+      <workItem from="1698805823808" duration="1570000" />
     </task>
+    <task id="LOCAL-00001" summary="Create Branch">
+      <option name="closed" value="true" />
+      <created>1698807319735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698807319735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Branch" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 E:\ProgramFiles\JetBrains\Toolbox\apps\CLion\ch-0\232.9921.42\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=E:/MinGW/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/MinGW/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S E:\coding\Clion\Embedded\demo -B E:\coding\Clion\Embedded\demo\cmake-build-debug
--- Configuring done (1.2s)
+-- Configuring done (1.3s)
 You have changed variables that require your cache to be deleted.
 Configure will be re-run and you may have to reset some variables.
 The following variables have changed:
@@ -18,6 +18,6 @@ CMAKE_CXX_COMPILER= E:/MinGW/bin/g++.exe
 -- Detecting CXX compiler ABI info - failed
 -- Detecting CXX compile features
 -- Detecting CXX compile features - failed
--- Configuring done (3.1s)
+-- Configuring done (3.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/coding/Clion/Embedded/demo/cmake-build-debug
