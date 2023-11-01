@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="E:/coding/Clion/Embedded/demo/cmake-build-debug/demo.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Core/Inc"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/RT-Thread"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/MDK-ARM/RTE/_RM_Frame_C"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="E:/coding/Clion/Embedded/demo/cmake-build-debug/demo.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Core/Inc"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/RT-Thread"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include"/>
+					<Add directory="E:/coding/Clion/Embedded/demo/MDK-ARM/RTE/_RM_Frame_C"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
+					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/coding/Clion/Embedded/demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/ProgramFiles/JetBrains/Toolbox/apps/CLion/ch-0/232.9921.42/bin/mingw/bin/mingw32-make.exe -f &quot;E:/coding/Clion/Embedded/demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/gpio.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/main.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/stm32f4xx_it.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/system_stm32f4xx.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Core/Src/usart.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/CMSIS/LICENSE.txt">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/MDK-ARM/startup_stm32f407xx.s">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config/board.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config/rtconfig.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rtdbg.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rthw.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/context_rvds.S">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/cpuport.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/clock.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/components.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/cpu.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/idle.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/ipc.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/irq.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/kservice.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/mem.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/memheap.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/mempool.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/object.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/scheduler.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/slab.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/thread.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/Middlewares/Third_Party/RealThread_RTOS/src/timer.c">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="E:/coding/Clion/Embedded/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
